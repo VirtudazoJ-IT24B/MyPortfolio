@@ -1,0 +1,52 @@
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    background-image: url(https://t4.ftcdn.net/jpg/05/59/26/29/240_F_559262969_CW18gyXBBXs5mu3rLeuQovfSS0RVniZ2.jpg);
+    background-size: cover;
+    
+    background-repeat: no-repeat; 
+    background-position: top;
+    color: #ffffff; /* Light text color */
+}
+
+
+.abt{
+    color: rgb(0, 0, 0);
+    transition: transform 0.5s;
+}
+
+.abt:hover{
+    font-size: xx-large;
+    color: #d8d8e6;
+}
+
+.bigsize{
+    font-size: xx-large;
+}
+
+.ps{
+    margin-left: 10%;
+}
+
+.custom-button {
+    background-color: #000000; 
+    border: none;
+    color: rgb(0, 0, 0);
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 8px; 
+    background-size: fill;
+  }
+
+  .animation{
+    transition: transform 0.5s;
+  }
+
+  .animation :hover{
+    font-size: larger;
+  }
